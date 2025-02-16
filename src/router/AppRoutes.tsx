@@ -10,7 +10,7 @@ export const AppRoutes = () => {
 			<div className={style.content}>
 				<Routes>
 					<Route path="/inicio" element={<Main />} />
-					<Route path="/Example" element={<ExampleRoutes />} />
+					<Route path="/Example/*" element={<ExampleRoutes />} />
                     {/* Todas las rutas que crees desde Example Routes */}
                     {/* van a empezar por example, lo que va a cambiar van a ser las subrutas */}
                     {/* /Example/route1. /Example/route2 */}
